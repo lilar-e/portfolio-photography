@@ -15,21 +15,21 @@ export default function Component() {
       <main className="flex-1">
         <section className="py-12 md:py-20 lg:py-28">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <Link href="/landscape" className="group relative overflow-hidden rounded-lg shadow-lg">
-            <div className="group relative overflow-hidden rounded-lg shadow-lg">
-              <img
-                src="https://previews.dropbox.com/p/thumb/ACa4FWy2wZI6Wkjd_5f6X-5eBO5j4uMUWKtLMU4i8J_R42qywvtM4kZKSwNCDY7j1wxTVhWOstEFilnu4_f_MIV458Y_twiOYFPDnGV6NxGZiVxd0htiiC-fhKYeWK-REE2JF2YLPQ9LkoRlBX8gYiZCNQmIDnkFmPuTxMEyxzbbynrSO-pInMT37G8vPzcJPCFYsr9kI33mQT9_T1pQzGV_3Ux2kCB7--v_EF0hH3khx6wtf5jbxTsct18I3aTvomRJ-sJji4c_ocHoo1WEhQVRGTUxo4yjXgMoAHv3mx-2ivqL8-DegL6GNhBjT2WgBR0/p.jpeg"
-                width="600"
-                height="400"
-                alt="Photograph 1"
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                style={{ aspectRatio: "600/600", objectFit: "cover" }}
-              />
-              <div className="absolute inset-0 bg-primary/80 flex flex-col items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                <h3 className="text-xl font-bold text-primary-foreground">Landscape</h3>
-                <p className="text-primary-foreground mt-2 text-center">A tranquil scene captured in the golden hour and storms.</p>
+            <Link href="/landscape" className="group relative overflow-hidden rounded-lg shadow-lg">
+              <div className="group relative overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src="https://previews.dropbox.com/p/thumb/ACa4FWy2wZI6Wkjd_5f6X-5eBO5j4uMUWKtLMU4i8J_R42qywvtM4kZKSwNCDY7j1wxTVhWOstEFilnu4_f_MIV458Y_twiOYFPDnGV6NxGZiVxd0htiiC-fhKYeWK-REE2JF2YLPQ9LkoRlBX8gYiZCNQmIDnkFmPuTxMEyxzbbynrSO-pInMT37G8vPzcJPCFYsr9kI33mQT9_T1pQzGV_3Ux2kCB7--v_EF0hH3khx6wtf5jbxTsct18I3aTvomRJ-sJji4c_ocHoo1WEhQVRGTUxo4yjXgMoAHv3mx-2ivqL8-DegL6GNhBjT2WgBR0/p.jpeg"
+                  width="600"
+                  height="400"
+                  alt="Photograph 1"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  style={{ aspectRatio: "600/600", objectFit: "cover" }}
+                />
+                <div className="absolute inset-0 bg-primary/80 flex flex-col items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  <h3 className="text-xl font-bold text-primary-foreground">Landscape</h3>
+                  <p className="text-primary-foreground mt-2 text-center">A tranquil scene captured in the golden hour and storms.</p>
+                </div>
               </div>
-            </div>
             </Link>
             <Link href="/pets" className="group relative overflow-hidden rounded-lg shadow-lg">
               <div className="group relative overflow-hidden rounded-lg shadow-lg">
@@ -48,20 +48,20 @@ export default function Component() {
               </div>
             </Link>
             <Link href="/adrenaline" className="group relative overflow-hidden rounded-lg shadow-lg">
-            <div className="group relative overflow-hidden rounded-lg shadow-lg">
-              <img
-                src="https://previews.dropbox.com/p/thumb/ACaZZJoB3GxONsp0Q60sAk_y3Z2OcW_2UBAccitB5EElcTyv20UGpWZYjrEBcM-wGm_uvIP7mt8BbE2VLPDYQXhjH8IfHz7vtiA4-hwd6OUSUAxZbW-daxlF3V8CLRtl0GJ4sZP85HwcnFUux6PSY0DUs6VOSwhy0LGEFJgadaFTUbDqS-jUiEgtWs9Do8lDPyH8DYKFCKd-jnHVTeNDuAmrn8XmMDVI7y9l_i5lWdtgp7_nhr-xKKKuP9n_Fvtas0H-SePmyTqN6CBs881DXJyPKxWQlg8IIIbCo7kcDRRjgbcNxDq_xefvl1aYRFQf3-OJQH-eZTA9nZYzuNh_iX3t/p.jpeg"
-                width="600"
-                height="400"
-                alt="Photograph 3"
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                style={{ aspectRatio: "600/600", objectFit: "cover" }}
-              />
-              <div className="absolute inset-0 bg-primary/80 flex flex-col items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                <h3 className="text-xl font-bold text-primary-foreground">Adrenaline</h3>
-                <p className="text-primary-foreground mt-2">A collection of motorsports</p>
+              <div className="group relative overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src="https://previews.dropbox.com/p/thumb/ACaZZJoB3GxONsp0Q60sAk_y3Z2OcW_2UBAccitB5EElcTyv20UGpWZYjrEBcM-wGm_uvIP7mt8BbE2VLPDYQXhjH8IfHz7vtiA4-hwd6OUSUAxZbW-daxlF3V8CLRtl0GJ4sZP85HwcnFUux6PSY0DUs6VOSwhy0LGEFJgadaFTUbDqS-jUiEgtWs9Do8lDPyH8DYKFCKd-jnHVTeNDuAmrn8XmMDVI7y9l_i5lWdtgp7_nhr-xKKKuP9n_Fvtas0H-SePmyTqN6CBs881DXJyPKxWQlg8IIIbCo7kcDRRjgbcNxDq_xefvl1aYRFQf3-OJQH-eZTA9nZYzuNh_iX3t/p.jpeg"
+                  width="600"
+                  height="400"
+                  alt="Photograph 3"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  style={{ aspectRatio: "600/600", objectFit: "cover" }}
+                />
+                <div className="absolute inset-0 bg-primary/80 flex flex-col items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  <h3 className="text-xl font-bold text-primary-foreground">Adrenaline</h3>
+                  <p className="text-primary-foreground mt-2">A collection of motorsports</p>
+                </div>
               </div>
-            </div>
             </Link>
           </div>
         </section>
@@ -76,10 +76,11 @@ export default function Component() {
               </p>
               <p className="text-muted-foreground mt-4">
                 With a keen eye for detail and a commitment to technical excellence, I strive to create images that are
-                not only visually stunning but also deeply meaningful. Whether I'm exploring the grandeur of nature or
+                not only visually stunning but also deeply meaningful. Whether I&apos;m exploring the grandeur of nature or
                 the intricacies of the human experience, my goal is to tell a story that resonates with the viewer and
                 leaves a lasting impression.
               </p>
+
               <div className="mt-6 flex flex-col md:flex-row gap-4">
                 <Link target="_blank"
                   href="https://www.instagram.com/livank99/"

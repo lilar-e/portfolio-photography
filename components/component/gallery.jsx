@@ -24,7 +24,7 @@ export function Gallery({ imagenes }) {
         className={`divImg ${imagen.classes}`}
         style={{ height: imagen.classes ? "auto" : "250px" }} // Ajusta la altura aquí
       >
-        <img
+        <Image
           src={imagen.url}
           alt={`Photograph ${index}`}
           className={`w-full h-full object-${imagen.objectFit}`}

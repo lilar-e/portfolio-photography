@@ -15,18 +15,23 @@ export function Gallery({ imagenes }) {
           </div>
         </nav>
       </header>
-      <main className="flex flex-wrap px-9 justify-center">
-        {imagenes.map((imagen, index) => (
-          <div key={index} className="divImg" style={{width: imagen.width}}>
-            <img
-              src={imagen.url}
-              // width="50%"
-              // height="800"
-              alt={`Photograph ${index}`}
-              style={{ objectFit: imagen.objectFit, height: imagen.height }}
-            />
-          </div>
-        ))}
+      <main className="flex flex-wrap justify-center">
+     
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {imagenes.map((imagen, index) => (
+      <div
+        key={index}
+        className={`divImg ${imagen.classes}`}
+        style={{ height: imagen.classes ? "auto" : "250px" }} // Ajusta la altura aquí
+      >
+        <img
+          src={imagen.url}
+          alt={`Photograph ${index}`}
+          className={`w-full h-full object-${imagen.objectFit}`}
+        />
+      </div>
+    ))}
+  </div>
       </main>
     </div>
   );

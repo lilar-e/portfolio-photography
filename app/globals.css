@@ -42,12 +42,12 @@
 }
 
 img{
-  height: 800px;
+  height: 50rem;
 }
 
-.divImg{
-  width: 25em;
-  height: 100%;
-  max-height: 800px;
-  margin: 2px;
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+      max-width: 1400px;
+  }
 }
+

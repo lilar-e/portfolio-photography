@@ -1,6 +1,5 @@
 
 import Link from "next/link"
-import Image from "next/image"
 
 export function Gallery({ imagenes }) {
   return (
@@ -25,7 +24,7 @@ export function Gallery({ imagenes }) {
         className={`divImg ${imagen.classes}`}
         style={{ height: imagen.classes ? "auto" : "250px" }} // Ajusta la altura aquí
       >
-        <Image
+        <img
           src={imagen.url}
           alt={`Photograph ${index}`}
           className={`w-full h-full object-${imagen.objectFit}`}

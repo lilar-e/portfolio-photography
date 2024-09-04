@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link"
-import Image from "next/image"
 
 
 export default function Component() {
@@ -18,8 +17,8 @@ export default function Component() {
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Link href="/landscape" className="group relative overflow-hidden rounded-lg shadow-lg">
               <div className="group relative overflow-hidden rounded-lg shadow-lg">
-                <Image
-                  src="https://previews.dropbox.com/p/thumb/ACa4FWy2wZI6Wkjd_5f6X-5eBO5j4uMUWKtLMU4i8J_R42qywvtM4kZKSwNCDY7j1wxTVhWOstEFilnu4_f_MIV458Y_twiOYFPDnGV6NxGZiVxd0htiiC-fhKYeWK-REE2JF2YLPQ9LkoRlBX8gYiZCNQmIDnkFmPuTxMEyxzbbynrSO-pInMT37G8vPzcJPCFYsr9kI33mQT9_T1pQzGV_3Ux2kCB7--v_EF0hH3khx6wtf5jbxTsct18I3aTvomRJ-sJji4c_ocHoo1WEhQVRGTUxo4yjXgMoAHv3mx-2ivqL8-DegL6GNhBjT2WgBR0/p.jpeg"
+                <img
+                  src="https://i.postimg.cc/WjRTxcjn/DSC-4600.jpg"
                   width="600"
                   height="400"
                   alt="Photograph 1"
@@ -34,8 +33,8 @@ export default function Component() {
             </Link>
             <Link href="/pets" className="group relative overflow-hidden rounded-lg shadow-lg">
               <div className="group relative overflow-hidden rounded-lg shadow-lg">
-                <Image
-                  src="https://previews.dropbox.com/p/thumb/ACYBHhwfl8Jgt81SIjTMyxIVdO9aSsLaSiCcAyvVdmtE-gksl42cbJydKd77ZzAQ7f1ryt1BXMbK18-mrFwvZ6QTcq1J3raOlVaAZ769MvYiFdGqLMvjhm55I7igE0cQlEMLMZvjc4vpSpsP0iAmn_9SYcZtRsPl9201CUTl02leUvZOUAuUKJUWYlqq4FbqCDx0gfE6SfM73m_K6M85X9eF80cdBqz7mmExcwRWdUTFSjb5doc9DY_wCuRYeF84DlTEa6kXeRUB2Nag7KpVMzKF5KQT6s1CVV_-uuxMbb5hT0l5tgjt5WwTB4r_EVvZTn4/p.jpeg"
+                <img
+                  src="https://i.postimg.cc/1m3wQVDk/DSC-3684.jpg"
                   width="600"
                   height="400"
                   alt="Photograph 2"
@@ -50,8 +49,8 @@ export default function Component() {
             </Link>
             <Link href="/adrenaline" className="group relative overflow-hidden rounded-lg shadow-lg">
               <div className="group relative overflow-hidden rounded-lg shadow-lg">
-                <Image
-                  src="https://previews.dropbox.com/p/thumb/ACaZZJoB3GxONsp0Q60sAk_y3Z2OcW_2UBAccitB5EElcTyv20UGpWZYjrEBcM-wGm_uvIP7mt8BbE2VLPDYQXhjH8IfHz7vtiA4-hwd6OUSUAxZbW-daxlF3V8CLRtl0GJ4sZP85HwcnFUux6PSY0DUs6VOSwhy0LGEFJgadaFTUbDqS-jUiEgtWs9Do8lDPyH8DYKFCKd-jnHVTeNDuAmrn8XmMDVI7y9l_i5lWdtgp7_nhr-xKKKuP9n_Fvtas0H-SePmyTqN6CBs881DXJyPKxWQlg8IIIbCo7kcDRRjgbcNxDq_xefvl1aYRFQf3-OJQH-eZTA9nZYzuNh_iX3t/p.jpeg"
+                <img
+                  src="https://i.postimg.cc/NQtytrcd/DSC5635.jpg"
                   width="600"
                   height="400"
                   alt="Photograph 3"
@@ -109,7 +108,7 @@ export default function Component() {
                 </Link>
               </div>
             </div>
-            <Image
+            <img
               src="https://previews.dropbox.com/p/thumb/ACYhUtZ99crpvvu7Vhds9AQ_tvuSYxjRVojnB54D9i9CMIIfysYHPdXqiaGfgPWCuOm27ut5uXfqtb1IncerRTXtR1eB_qU0zzHDfiG-VrIl8Tux9Dc14AfwGByEL2cTs3fT6Hf7qCopR5aa0G49rj0o72L-ElY4Zri7R-VnLoLPGbDhpzkkbIPB6OMNzafPHIzuZQ3ueWN62z5gQ6dYL5f3CJfmDvzaQbXWxdkR1t_n3xQtNJUBlhca93rYMa5MVC0yaz7LLhKJgOtbHi3BbGCPwpoze1zN7MvXRLplINDSzQ-iRsKAa6G0JMhiywMqCJM/p.jpeg"
               width="600"
               height="500"

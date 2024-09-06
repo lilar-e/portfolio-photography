@@ -68,7 +68,7 @@ export default function Component() {
         <section className="bg-muted py-12 md:py-20 lg:py-28">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col items-start justify-center">
-              <h2 className="text-3xl font-bold text-primary">About the Photographer</h2>
+              <h2 className="text-3xl font-bold text-primary">About me</h2>
               <p className="text-muted-foreground mt-4">
                 I am a passionate photographer with a deep appreciation for the beauty that surrounds us. My work is a
                 reflection of my personal journey, capturing moments that evoke emotion and inspire wonder. Through my
@@ -109,7 +109,7 @@ export default function Component() {
               </div>
             </div>
             <img
-              src="https://previews.dropbox.com/p/thumb/ACYhUtZ99crpvvu7Vhds9AQ_tvuSYxjRVojnB54D9i9CMIIfysYHPdXqiaGfgPWCuOm27ut5uXfqtb1IncerRTXtR1eB_qU0zzHDfiG-VrIl8Tux9Dc14AfwGByEL2cTs3fT6Hf7qCopR5aa0G49rj0o72L-ElY4Zri7R-VnLoLPGbDhpzkkbIPB6OMNzafPHIzuZQ3ueWN62z5gQ6dYL5f3CJfmDvzaQbXWxdkR1t_n3xQtNJUBlhca93rYMa5MVC0yaz7LLhKJgOtbHi3BbGCPwpoze1zN7MvXRLplINDSzQ-iRsKAa6G0JMhiywMqCJM/p.jpeg"
+              src="https://i.postimg.cc/KG9nr6s6/DSC-0149.jpg"
               width="600"
               height="500"
               alt="Photographer"
